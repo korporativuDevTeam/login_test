@@ -37,7 +37,6 @@ class MyApp extends StatelessWidget {
         '/profile': (context) =>  ProfilePage(),
         //login(email e senha) - admin@gmail.com e 123456
         //verif (barear token, envia o token
-
       },
       debugShowCheckedModeBanner: false,
     );

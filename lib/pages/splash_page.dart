@@ -13,6 +13,7 @@ class _InitialPageState extends State<SplashPage> {
     super.initState();
     awaitLoginPage();
   }
+
   Future<void> awaitLoginPage() async {
     Future.delayed(const Duration(seconds: 3))
         .then((_) => Navigator.of(context).pushReplacementNamed("/login"));
